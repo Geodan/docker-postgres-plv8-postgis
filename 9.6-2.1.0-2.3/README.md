@@ -8,6 +8,16 @@ This Docker image contains:
 
 - PostGIS 2.3
 
+This is basically a 'merge' of 2 images:
+
+- clkao/docker-postgres-plv8: https://github.com/clkao/docker-postgres-plv8/blob/master/9.6-2.0/Dockerfile
+
+with update of PL/v8 to 2.1
+
+- mdillon/postgis: https://github.com/appropriate/docker-postgis/blob/master/9.6-2.3/Dockerfile
+
+with fix for issue https://github.com/appropriate/docker-postgis/issues/60
+
 # Running
 
 ```
